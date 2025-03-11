@@ -1,0 +1,75 @@
+body{
+    font-family: arial, sans-serif;
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.rating-container, .thankyou-container{
+    background-color: #1e252f;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 320px;
+    box-shadow: 0 4px 10px rgb(83, 81, 81);
+}
+.rating-card{
+    text-align: start;
+}
+svg{
+    width: 17px;
+    height: 17px;
+    background-color: #262e38;
+    padding: 10px;
+    border-radius: 50%;
+}
+h2{
+    margin: 10px 0;
+}
+.rating-options{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+.rating-btn{
+    background-color: #262e38;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.rating-btn:hover{
+    background-color: #7c8798;
+}
+.rating-btn.active{
+    background-color: #fc7613;
+}
+.submit-btn{
+    background-color: #fc7613;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.submit-btn:hover{
+    background-color: #ff9f47;
+}
+.thankyou-card svg{
+    width: 100px;
+    margin-bottom: 10px;
+    height: auto;
+}
+.selected-rating{
+    background-color: #262e38;
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+}
